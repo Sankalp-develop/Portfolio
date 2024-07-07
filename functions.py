@@ -2,7 +2,7 @@ import json
 
 def  validateuser(username ,password):
     
-    with open('userconfig.json', 'r') as file:        
+    with open("static/styles/userconfig.json", 'r') as file:        
         data = json.load(file)
         for user in data['users']:
             if user['username'] == username and user['password'] == password:
