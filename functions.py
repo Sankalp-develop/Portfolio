@@ -4,7 +4,7 @@ import os
 def  validateuser(username ,password):
     current_directory = os.getcwd()
     print("CurrentDir = " ,current_directory)
-    with open("static/styles/userconfig.json", 'r') as file:        
+    with open("Portfolio/static/styles/userconfig.json", 'r') as file:        
         data = json.load(file)
         for user in data['users']:
             if user['username'] == username and user['password'] == password:
