@@ -1,0 +1,18 @@
+body {
+    background:linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+  }
+
+.welcomenote{
+    font-family: var(--bs-body-font-family);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+  background:linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
