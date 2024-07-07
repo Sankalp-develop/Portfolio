@@ -3,7 +3,7 @@ import os
 
 def  validateuser(username ,password):
     current_directory = os.getcwd()
-    print(current_directory)
+    print("CurrentDir = " ,current_directory)
     with open("static/styles/userconfig.json", 'r') as file:        
         data = json.load(file)
         for user in data['users']:
